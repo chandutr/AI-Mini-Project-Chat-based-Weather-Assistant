@@ -1,1 +1,7 @@
 # AI-Mini-Project-Chat-based-Weather-Assistant
+Problem Summary: The AI mini-project-Chat based weather assistant is designed to provide users with weather-related information such as current temperature, tomorrow's forecast, and humidity, for cities like Delhi, Mumbai, and Bangalore. I have implemented NLP techniques for text processing and keyword-based intent detection to provide mock weather data, and localized weather information. The chatbot is useful for providing weather conditions in different cities and also the chatbot is an easy, fun way to check weather updates.
+
+Approach and assumptions: This chatbot uses a simple keyword-based approach, preprocessing text to match intents like "current temperature" or "tomorrow forecast" and "humidity" pulling responses from mock data for Delhi, Mumbai, and Bangalore, with city detection from string matching. It runs a continuous chat loop to handle user queries until "quit" is entered. Assumptions include users mentioning a city (it takes Delhi by default), queries containing key words. 
+
+Limitations: The chatbot uses static mock data for only Delhi, Mumbai, and Bangalore, lacks real-time updates, struggles with varied queries, and relies on exact city matches with limited NLP.
+Potential Improvements: Integrate a real-time weather API, enhance intent detection with ML, improve city matching, and support multiple intents for a better conversational experience.
